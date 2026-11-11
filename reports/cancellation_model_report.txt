@@ -1,0 +1,47 @@
+BOOKING CANCELLATION PREDICTION REPORT
+==================================================
+
+Dataset records: 87396
+Training records: 69916
+Testing records: 17480
+
+MODEL: RANDOM FOREST CLASSIFIER
+
+Accuracy: 0.7261
+Precision: 0.5011
+Recall: 0.8670
+F1 Score: 0.6351
+ROC-AUC: 0.8521
+
+CLASSIFICATION REPORT
+               precision    recall  f1-score   support
+
+Not Cancelled       0.93      0.67      0.78     12675
+    Cancelled       0.50      0.87      0.64      4805
+
+     accuracy                           0.73     17480
+    macro avg       0.72      0.77      0.71     17480
+ weighted avg       0.81      0.73      0.74     17480
+
+TOP 20 FEATURES
+                                   feature  importance
+                      numerical__lead_time    0.148119
+                  categorical__country_PRT    0.124339
+    numerical__required_car_parking_spaces    0.109319
+     categorical__market_segment_Online TA    0.080625
+                            numerical__adr    0.049114
+ categorical__market_segment_Offline TA/TO    0.040211
+      categorical__customer_type_Transient    0.038718
+         numerical__previous_cancellations    0.030870
+              numerical__arrival_date_year    0.028411
+   categorical__distribution_channel_TA/TO    0.027586
+           numerical__stays_in_week_nights    0.024354
+categorical__customer_type_Transient-Party    0.023088
+      categorical__deposit_type_Non Refund    0.022355
+      categorical__deposit_type_No Deposit    0.017144
+                  categorical__country_GBR    0.016018
+                  numerical__arrival_month    0.015914
+        categorical__market_segment_Direct    0.015431
+ numerical__previous_bookings_not_canceled    0.015317
+  categorical__distribution_channel_Direct    0.014007
+                    numerical__arrival_day    0.012875

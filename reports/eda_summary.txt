@@ -1,0 +1,55 @@
+HOTEL BOOKING DATA - EDA REPORT
+==================================================
+
+Total bookings: 87396
+Cancelled bookings: 24025
+Non-cancelled bookings: 63371
+Cancellation rate: 27.49%
+Average ADR: 106.34
+Average lead time: 79.89 days
+Total guests: 176999
+Estimated non-cancelled room value: 22976896.33
+
+BOOKINGS BY HOTEL
+hotel
+City Hotel      53428
+Resort Hotel    33968
+
+CANCELLATION RATE BY HOTEL (%)
+hotel
+City Hotel      30.04
+Resort Hotel    23.48
+
+CANCELLATION RATE BY MARKET SEGMENT (%)
+market_segment
+Undefined        100.00
+Online TA         35.35
+Groups            27.01
+Aviation          19.82
+Offline TA/TO     14.85
+Direct            14.72
+Complementary     12.54
+Corporate         12.11
+
+TOP 10 COUNTRIES
+country
+PRT    27453
+GBR    10433
+FRA     8837
+ESP     7252
+DEU     5387
+ITA     3066
+IRL     3016
+BEL     2081
+BRA     1995
+NLD     1911
+
+AVERAGE LEAD TIME BY CANCELLATION STATUS
+is_canceled
+0     70.10
+1    105.72
+
+AVERAGE ADR BY HOTEL
+hotel
+City Hotel      110.99
+Resort Hotel     99.03
